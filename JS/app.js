@@ -4,6 +4,9 @@ var btnActualizar = document.getElementById("btnActualizar");
 //Agregar un event listener para cada click
 btnActualizar.addEventListener('click', actualizar);
 
+actualizar();
+
+//funciones
 function actualizar()
 {
   var xhttp = new XMLHttpRequest();
